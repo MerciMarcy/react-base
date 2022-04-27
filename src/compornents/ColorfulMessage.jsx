@@ -1,6 +1,6 @@
 import React from "react";
 
-const ColorfulMessage = (props) => {
+export const ColorfulMessage = (props) => {
   const { color, children } = props;
   const contentStyle = {
     // jsではオブジェクト名とプロパティ名が同じ場合は省略可能
@@ -12,4 +12,4 @@ const ColorfulMessage = (props) => {
   return <p style={contentStyle}>{children}</p>;
 };
 
-export default ColorfulMessage;
+// export default ColorfulMessage;
